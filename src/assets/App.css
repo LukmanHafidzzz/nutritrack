@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --dark-gr-15: #1A3129;
+    --dark-gr-20: #234338;
+    --gr-70: #CBEA7B;
+    --gr-75: #D3EE91;
+    --gr-80: #DCF1A7;
+    --gr-85: #E5F5BD;
+    --grey-97: #FAFDF2;
+    --gr-custom: #f7fde6;
+}
+
+body {
+    background-color: var(--grey-97) !important;
+}
+
+.text-dark-gr-15 {
+    color: var(--dark-gr-15);
+}
+
+.bg-dark-gr-15 {
+    background-color: var(--dark-gr-15) !important;
+}
+
+.bg-dark-gr-20 {
+    background-color: var(--dark-gr-15) !important;
+}
+
+.bg-gr-85 {
+    background-color: var(--gr-85) !important;
+}
+
+.pt-6 {
+    padding-top: 100px;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+.fs-7 {
+    font-size: 0.9rem !important;
+}
+
+/* 
+.text-dark-gr-15 {
+    color: var(--dark-gr-15) !important;
+} */
