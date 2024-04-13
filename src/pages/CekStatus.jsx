@@ -19,7 +19,7 @@ export default function CekStatus() {
                 <Container>
                     <Row  data-aos="fade-up" data-aos-duration="1000">
                         <Col></Col>
-                        <Col xs={8} xl={6}>
+                        <Col xs={10} xl={6}>
                             <div className='text-center fw-bold fs-3'>Cek Status Nutrisi Balita</div>
                             <p className='text-center'>
                                 Masukkan data balita anda untuk mengetahui status gizi.
