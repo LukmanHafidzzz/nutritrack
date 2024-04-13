@@ -1,0 +1,29 @@
+:root {
+    --dark-gr-15: #1A3129;
+    --dark-gr-20: #234338;
+    --gr-70: #CBEA7B;
+    --gr-75: #D3EE91;
+    --gr-80: #DCF1A7;
+    --gr-85: #E5F5BD;
+    --gr-95: #F6FBE9;
+    --grey-97: #FAFDF2;
+}
+
+.form-calc {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25) !important;
+    height: 3rem;
+    transition: 0.1s !important;
+}
+
+.form-calc:focus {
+    outline: none !important;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25) !important;
+    border: solid var(--gr-70) 2px !important;
+    transition: 0.1s !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .col-custom {
+        flex-basis: calc(100% / 8);;
+    }
+}

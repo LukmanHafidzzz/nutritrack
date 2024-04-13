@@ -43,6 +43,10 @@ body {
     font-size: 0.9rem !important;
 }
 
+.text-active {
+    color: var(--gr-70) !important;
+}
+
 /* 
 .text-dark-gr-15 {
     color: var(--dark-gr-15) !important;
