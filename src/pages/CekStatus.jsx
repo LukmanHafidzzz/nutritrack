@@ -27,15 +27,15 @@ export default function CekStatus() {
                             <Form className='mt-5 mb-5'>
                                 <Form.Group className="mb-4" controlId="formGroupEmail">
                                     <Form.Label className='fw-medium'>Usia Balita</Form.Label>
-                                    <Form.Control className='form-calc fs-7 fs-7' type="number" placeholder="Masukkan usia balita dalam bulan" />
+                                    <Form.Control className='form-calc fs-7 fs-7' type="number" placeholder="Masukkan usia dalam bulan" />
                                 </Form.Group>
                                 <Form.Group className="mb-4" controlId="formGroupEmail">
                                     <Form.Label className='fw-medium'>Berat Balita</Form.Label>
-                                    <Form.Control className='form-calc fs-7' type="number" placeholder="Masukkan berat balita dalam gram" />
+                                    <Form.Control className='form-calc fs-7' type="number" placeholder="Masukkan berat dalam gram" />
                                 </Form.Group>
                                 <Form.Group className="mb-4" controlId="formGroupEmail">
                                     <Form.Label className='fw-medium'>Tinggi Balita</Form.Label>
-                                    <Form.Control className='form-calc fs-7' type="number" placeholder="Masukkan tinggi balita dalam cm" />
+                                    <Form.Control className='form-calc fs-7' type="number" placeholder="Masukkan tinggi dalam cm" />
                                 </Form.Group>
                                 <Form.Group className="mb-4" controlId="formGroupEmail">
                                     <Form.Label className='fw-medium'>Jenis Kelamin</Form.Label>
