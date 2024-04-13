@@ -49,7 +49,7 @@ export default function Landingpage() {
                     <Col xs={10}>
                         <p className='text-center fw-bold fs-3'  data-aos="fade-up" data-aos-duration="1000">Tentang Kita</p>
                         <p className='text-justify'  data-aos="fade-up" data-aos-duration="1000">
-                            Berawal dari keinginan untuk memastikan anak-anak kita tumbuh dengan gizi yang optimal, Nutritrack memberikan Anda kemudahan untuk memantau tingkat gizi anak Anda. Dengan Nutritrack, Anda bisa mendapatkan informasi yang Anda butuhkan tanpa kesulitan. Nutritrack membantu Anda mengambil langkah yang tepat untuk meningkatkan gizi anak Anda. Dengan pemantauan yang teratur dan saran yang disesuaikan, Anda dapat memastikan anak Anda mendapatkan nutrisi yang mereka butuhkan.
+                            Berawal dari keinginan untuk memastikan balita tumbuh dengan gizi yang optimal, Nutritrack memberikan Anda kemudahan untuk memantau tingkat gizi balita Anda. Dengan Nutritrack, Anda bisa mendapatkan informasi yang Anda butuhkan tanpa kesulitan. Nutritrack membantu Anda mengambil langkah yang tepat untuk meningkatkan gizi balita Anda. Dengan pemantauan yang teratur dan saran yang disesuaikan, Anda dapat memastikan balita Anda mendapatkan nutrisi yang mereka butuhkan.
                         </p>
                     </Col>
                     <Col></Col>
