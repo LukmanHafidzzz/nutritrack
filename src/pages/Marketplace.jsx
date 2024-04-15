@@ -39,7 +39,7 @@ export default function Marketplace() {
                                         </Col>
                                         <Col className='position-absolute bottom-0 pb-3'>
                                             <Card.Title className='mb-4 fw-semibold'>Rp210.275</Card.Title>
-                                            <Button className='btn-start' onClick={() => handleBeliClick('NUTRILON ROYAL 3 ACTIDUOBIO+')}>Beli</Button>{' '}
+                                            <Button className='btn-buy' onClick={() => handleBeliClick('NUTRILON ROYAL 3 ACTIDUOBIO+')}>Beli</Button>{' '}
                                         </Col>
                                     </Row>
                                 </Card.Body>
@@ -59,7 +59,7 @@ export default function Marketplace() {
                                         </Col>
                                         <Col className='position-absolute bottom-0 pb-3'>
                                             <Card.Title className='mb-4 fw-semibold'>Rp40.300</Card.Title>
-                                            <Button className='btn-start' onClick={() => handleBeliClick('Apialys Sirup suplemen makanan - 100ml')}>Beli</Button>{' '}
+                                            <Button className='btn-buy' onClick={() => handleBeliClick('Apialys Sirup suplemen makanan - 100ml')}>Beli</Button>{' '}
                                         </Col>
                                     </Row>
                                 </Card.Body>
@@ -79,7 +79,7 @@ export default function Marketplace() {
                                         </Col>
                                         <Col className='position-absolute bottom-0 pb-3'>
                                             <Card.Title className='mb-4 fw-semibold'>Rp32.500</Card.Title>
-                                            <Button className='btn-start' onClick={() => handleBeliClick('Ayam Karkas Broiler Ayam Potong Utuh 0.6-0.7 Kg')}>Beli</Button>{' '}
+                                            <Button className='btn-buy' onClick={() => handleBeliClick('Ayam Karkas Broiler Ayam Potong Utuh 0.6-0.7 Kg')}>Beli</Button>{' '}
                                         </Col>
                                     </Row>
                                 </Card.Body>
@@ -99,7 +99,7 @@ export default function Marketplace() {
                                         </Col>
                                         <Col className='position-absolute bottom-0 pb-3'>
                                             <Card.Title className='mb-4 fw-semibold'>Rp25.000</Card.Title>
-                                            <Button className='btn-start' onClick={() => handleBeliClick('MADU SARANG ASLI madu sarang/sarang madu 500 gram')}>Beli</Button>{' '}
+                                            <Button className='btn-buy' onClick={() => handleBeliClick('MADU SARANG ASLI madu sarang/sarang madu 500 gram')}>Beli</Button>{' '}
                                         </Col>
                                     </Row>
                                 </Card.Body>
@@ -119,7 +119,7 @@ export default function Marketplace() {
                                         </Col>
                                         <Col className='position-absolute bottom-0 pb-3'>
                                             <Card.Title className='mb-4 fw-semibold'>Rp65.900</Card.Title>
-                                            <Button className='btn-start' onClick={() => handleBeliClick('Telur omega - protein, lemak, vitamin A, vitamin B. 30 butir')}>Beli</Button>{' '}
+                                            <Button className='btn-buy' onClick={() => handleBeliClick('Telur omega - protein, lemak, vitamin A, vitamin B. 30 butir')}>Beli</Button>{' '}
                                         </Col>
                                     </Row>
                                 </Card.Body>
@@ -139,7 +139,7 @@ export default function Marketplace() {
                                         </Col>
                                         <Col className='position-absolute bottom-0 pb-3'>
                                             <Card.Title className='mb-4 fw-semibold'>Rp240.000</Card.Title>
-                                            <Button className='btn-start' onClick={() => handleBeliClick('Blackmores Kids Fruity Fishies Omega 3 alami, EPA, DHA dan Vitamin E.')}>Beli</Button>{' '}
+                                            <Button className='btn-buy' onClick={() => handleBeliClick('Blackmores Kids Fruity Fishies Omega 3 alami, EPA, DHA dan Vitamin E.')}>Beli</Button>{' '}
                                         </Col>
                                     </Row>
                                 </Card.Body>
