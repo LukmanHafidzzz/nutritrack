@@ -1,0 +1,57 @@
+:root {
+    --dark-gr-15: #1A3129;
+    --dark-gr-20: #234338;
+    --gr-70: #CBEA7B;
+    --gr-75: #D3EE91;
+    --gr-80: #DCF1A7;
+    --gr-85: #E5F5BD;
+    --gr-95: #F6FBE9;
+    --grey-97: #FAFDF2;
+}
+
+.frame {
+    overflow: hidden !important;
+    transition: 0.2s !important;
+}
+
+.frame:hover img {
+    transform: scale(1.2) !important;
+}
+
+.frame img {
+    transition: 0.2s !important;
+}
+
+.card-market {
+    height: 380px !important;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25) !important;
+}
+
+.btn-start {
+    background-color: var(--gr-70) !important;
+    color: var(--dark-gr-15) !important;
+    width: 100px;
+    height: 40px;
+    border-color: #D3EE91 !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .frame {
+        overflow: hidden !important;
+        transition: 0.2s !important;
+    }
+    
+    .frame:hover img {
+        transform: scale(1.1) !important;
+    }
+    
+    .frame img {
+        transition: 0.2s !important;
+        width: 100% !important;
+    }
+
+    .card-market {
+        height: 350px !important;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25) !important;
+    }
+}

@@ -76,7 +76,7 @@ export default function Landingpage() {
                         <Col></Col>
                         <Col xs={10}>
                             <p className='text-center fw-bold fs-3' data-aos="fade-up" data-aos-duration="1000">Tentang Kita</p>
-                            <p className='text-justify' data-aos="fade-up" data-aos-duration="1000">
+                            <p className='text-center' data-aos="fade-up" data-aos-duration="1000">
                                 Berawal dari keinginan untuk memastikan balita tumbuh dengan gizi yang optimal, Nutritrack memberikan Anda kemudahan untuk memantau tingkat gizi balita Anda. Dengan Nutritrack, Anda bisa mendapatkan informasi yang Anda butuhkan tanpa kesulitan. Nutritrack membantu Anda mengambil langkah yang tepat untuk meningkatkan gizi balita Anda. Dengan pemantauan yang teratur dan saran yang disesuaikan, Anda dapat memastikan balita Anda mendapatkan nutrisi yang mereka butuhkan.
                             </p>
                         </Col>
@@ -102,7 +102,7 @@ export default function Landingpage() {
                                                 <Card.Title>Cek Status Gizi</Card.Title>
                                             </div>
                                         </div>
-                                        <div className="text-justify mt-3 text-dark-gr-15">
+                                        <div className="mt-3 text-dark-gr-15">
                                             Fitur ini memungkinkan Anda untuk dengan mudah melihat tingkat gizi balita menggunakan kalkulator nutrisi. Dengan fitur ini anda dapat mengidentifikasi kekurangan nutrisi pada balita anda.
                                         </div>
                                     </Card.Body>
@@ -119,7 +119,7 @@ export default function Landingpage() {
                                                 <Card.Title>Marketplace</Card.Title>
                                             </div>
                                         </div>
-                                        <div className="text-justify mt-3 text-dark-gr-15">
+                                        <div className="mt-3 text-dark-gr-15">
                                             Kami menyediakan berbagai produk yang mendukung kesehatan dan nutrisi pada balita, seperti suplemen gizi dan produk lainnya yang dapat membantu Anda memenuhi kebutuhan gizi balita Anda.
                                         </div>
                                     </Card.Body>
@@ -136,7 +136,7 @@ export default function Landingpage() {
                                                 <Card.Title>Daftar Kontak</Card.Title>
                                             </div>
                                         </div>
-                                        <div className="text-justify mt-3 text-dark-gr-15">
+                                        <div className="mt-3 text-dark-gr-15">
                                             Anda dapat mengakses berbagai daftar nomor telepon puskesmas dan rumah sakit, sehingga Anda dapat dengan mudah menghubungi puskesmas atau rumah sakit untuk konsultasi atau keadaan darurat.
                                         </div>
                                     </Card.Body>

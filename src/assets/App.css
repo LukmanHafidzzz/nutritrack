@@ -55,3 +55,9 @@ body {
 .text-dark-gr-15 {
     color: var(--dark-gr-15) !important;
 } */
+
+@media only screen and (max-width: 600px) {
+    .text-justify {
+        text-align: justify;
+    }
+}
