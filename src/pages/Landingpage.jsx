@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 // Library
 import { Button, Card, CardGroup, Col, Container, Image, Row } from 'react-bootstrap'
@@ -18,6 +18,34 @@ import '../assets/Landingpage.css'
 
 
 export default function Landingpage() {
+    const text = "Selamat Datang di Nutritrack.";
+    const typeDelay = 75;
+    let index = 0;
+    let lastFrameTime = 0;
+
+    function typeWriter(timestamp) {
+        const typedTextElement = document.querySelector(".typed-text");
+        if (!lastFrameTime) {
+            lastFrameTime = timestamp;
+        }
+        const elapsedTime = timestamp - lastFrameTime;
+        if (elapsedTime > typeDelay) {
+            lastFrameTime = timestamp;
+            if (index < text.length) {
+                typedTextElement.innerHTML += text.charAt(index);
+                index++;
+            } else {
+                typedTextElement.querySelector(".cursor")?.remove();
+                typedTextElement.innerHTML += '<span class="cursor">|</span>';
+                return;
+            }
+        }
+        requestAnimationFrame(typeWriter);
+    }
+
+    useEffect(() => {
+        requestAnimationFrame(typeWriter);
+    }, []);
 
     return (
         <>
@@ -32,7 +60,7 @@ export default function Landingpage() {
                             <Image src='/images/Foto-3.png' className='w-75' />
                         </Col>
                         <Col sm className='left-content text-dark-gr-15'>
-                            <div className=''>Selamat Datang di Nutritrack!</div>
+                            <p className='typed-text fw-medium fs-6'></p>
                             <p className='fs-3 fw-bold mb-5'>
                                 Memudahkan <span className='text-gr-70'>Anda</span> untuk memantau dan meningkatkan kesehatan <span className='text-gr-70'>balita</span> Anda.
                             </p>
@@ -92,7 +120,7 @@ export default function Landingpage() {
                                             </div>
                                         </div>
                                         <div className="text-justify mt-3 text-dark-gr-15">
-                                            Fitur ini menyediakan berbagai produk yang mendukung kesehatan dan nutrisi balita. Anda dapat menemukan berbagai jenis makanan sehat, suplemen gizi, dan produk lainnya yang dapat membantu Anda memenuhi kebutuhan gizi balita Anda.
+                                            Kami menyediakan berbagai produk yang mendukung kesehatan dan nutrisi pada balita, seperti suplemen gizi dan produk lainnya yang dapat membantu Anda memenuhi kebutuhan gizi balita Anda.
                                         </div>
                                     </Card.Body>
                                 </Card>
@@ -109,7 +137,7 @@ export default function Landingpage() {
                                             </div>
                                         </div>
                                         <div className="text-justify mt-3 text-dark-gr-15">
-                                            Fitur ini memberikan akses ke daftar nomor telepon puskesmas dan rumah sakit. Dengan daftar ini, Anda dapat dengan mudah menemukan dan menghubungi puskesmas atau rumah sakit untuk konsultasi atau keadaan darurat.
+                                            Anda dapat mengakses berbagai daftar nomor telepon puskesmas dan rumah sakit, sehingga Anda dapat dengan mudah menghubungi puskesmas atau rumah sakit untuk konsultasi atau keadaan darurat.
                                         </div>
                                     </Card.Body>
                                 </Card>

@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import '../assets/App.css'
 
 // Library
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Image, Nav, Navbar } from 'react-bootstrap';
 import { Link, useLocation } from 'react-router-dom';
 
 export default function MainNavbar() {
@@ -19,7 +19,10 @@ export default function MainNavbar() {
         <>
             <Navbar collapseOnSelect expand="lg" className="bg-dark-gr-15 p-3 fixed-top" data-bs-theme="dark">
                 <Container className='gap-3'>
-                    <Navbar.Brand href="#home" className='text-white'><span className='text-gr-70 fw-medium'>Nutri</span>track</Navbar.Brand>
+                    <Navbar.Brand href="#home" className='text-white'>
+                        <Image src='/images/logo.png' className='me-1' width={30} />
+                        <span className='text-gr-70 fw-medium'>Nutri</span>track
+                    </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">

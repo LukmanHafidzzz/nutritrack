@@ -11,6 +11,10 @@
     --gr-custom: #f7fde6;
 }
 
+* {
+    font-family: "Poppins", sans-serif;
+}
+
 body {
     background-color: var(--grey-97) !important;
 }
