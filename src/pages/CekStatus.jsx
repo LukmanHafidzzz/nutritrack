@@ -926,7 +926,7 @@ export default function CekStatus() {
                                 </Form.Group>
                                 <Button className='btn-start fw-semibold w-100' type="submit">Hitung</Button>{' '}
                             </Form>
-                            <div className="hasil-perhitungan">
+                            <div className="hasil-perhitungan" data-aos="fade-up" data-aos-duration="1000">
                                 <p className='fw-semibold'>Hasil analisis gizi balita anda.</p>
                                 <Row>
                                     <Col xs={5}>
