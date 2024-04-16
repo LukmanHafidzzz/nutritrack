@@ -64,7 +64,7 @@ export default function Landingpage() {
                             <p className='fs-3 fw-bold mb-5'>
                                 Memudahkan <span className='text-gr-70'>Anda</span> untuk memantau dan meningkatkan kesehatan <span className='text-gr-70'>balita</span> Anda.
                             </p>
-                            <Button className='btn-start fw-semibold'>Mulai</Button>{' '}
+                            <Link to={'/cek-nutrisi'}><Button className='btn-start fw-semibold'>Mulai</Button>{' '}</Link>
                         </Col>
                     </Row>
                 </Container>

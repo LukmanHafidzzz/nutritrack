@@ -1,16 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 // Library
 import MainNavbar from '../components/MainNavbar'
 import MainFooter from '../components/MainFooter'
 import { Button, Card, Col, Container, Image, Row } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 // Css
 import '../assets/App.css'
 import '../assets/DaftarKontak.css'
 import { FaMapMarkedAlt } from 'react-icons/fa'
 import { BsFillTelephoneFill } from 'react-icons/bs'
-import { Link } from 'react-router-dom'
 
 export default function DaftarKontak() {
     return (
