@@ -1,0 +1,68 @@
+:root {
+    --dark-gr-15: #1A3129;
+    --dark-gr-20: #234338;
+    --gr-70: #CBEA7B;
+    --gr-75: #D3EE91;
+    --gr-80: #DCF1A7;
+    --gr-85: #E5F5BD;
+    --grey-97: #FAFDF2;
+    --gr-custom: #f7fde6;
+}
+
+.box-desc {
+    padding-top: 1em !important;
+}
+
+.text-rs {
+    font-size: 1rem !important;
+    border-bottom: 2px solid var(--gr-70);
+    border-radius: 0 0 7px 0;
+    width: 50%;
+    height: 2rem;
+}
+
+.frame {
+    overflow: hidden !important;
+    transition: 0.3s !important;
+}
+
+.frame:hover img {
+    transform: scale(1.1) !important;
+}
+
+.frame img {
+    transition: 0.3s !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .frame {
+        overflow: hidden !important;
+        transition: 0.3s !important;
+    }
+    
+    .frame:hover img {
+        transform: scale(1.2) !important;
+    }
+    
+    .frame img {
+        transition: 0.3s !important;
+        width: 100% !important;
+    }
+    
+    .box-desc {
+        padding-top: 1rem !important;
+        padding-bottom: 1rem !important;
+    }
+
+    .text-rs {
+        font-size: 0.7rem !important;
+        border-bottom: 2px solid var(--gr-70);
+        border-radius: 0 0 7px 0;
+        width: 50%;
+        height: 1.8rem;
+    }
+
+    .text-desc {
+        font-size: 0.7rem !important;
+    }
+}

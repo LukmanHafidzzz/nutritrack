@@ -47,6 +47,10 @@ body {
     font-size: 0.9rem !important;
 }
 
+.fs-9 {
+    font-size: 0.7rem !important;
+}
+
 .text-active {
     color: var(--gr-70) !important;
 }

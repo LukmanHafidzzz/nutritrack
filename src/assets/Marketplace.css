@@ -11,7 +11,7 @@
 
 .frame {
     overflow: hidden !important;
-    transition: 0.2s !important;
+    transition: 0.3s !important;
 }
 
 .frame:hover img {
@@ -19,7 +19,7 @@
 }
 
 .frame img {
-    transition: 0.2s !important;
+    transition: 0.3s !important;
 }
 
 .card-market {
@@ -38,7 +38,7 @@
 @media only screen and (max-width: 600px) {
     .frame {
         overflow: hidden !important;
-        transition: 0.2s !important;
+        transition: 0.3s !important;
     }
     
     .frame:hover img {
@@ -46,7 +46,7 @@
     }
     
     .frame img {
-        transition: 0.2s !important;
+        transition: 0.3s !important;
         width: 100% !important;
     }
 

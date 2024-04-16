@@ -17,7 +17,7 @@ export default function CekStatus() {
             </header>
             <section className='pt-6 mb-5'>
                 <Container>
-                    <Row  data-aos="fade-up" data-aos-duration="1000">
+                    <Row data-aos="fade-up" data-aos-duration="1000">
                         <Col></Col>
                         <Col xs={10} xl={6}>
                             <div className='text-center fw-bold fs-3'>Cek Status Nutrisi Balita</div>
