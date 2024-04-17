@@ -910,7 +910,7 @@ export default function CekStatus() {
                                 </Form.Group>
                                 <Form.Group className="mb-4" controlId="formGroupEmail">
                                     <Form.Label className='fw-medium'>Berat Balita</Form.Label>
-                                    <Form.Control className='form-calc fs-7' name='berat' value={formData.berat} onChange={handleChange} type="number" placeholder="Masukkan berat dalam ons" />
+                                    <Form.Control className='form-calc fs-7' name='berat' value={formData.berat} onChange={handleChange} type="number" placeholder="Masukkan berat dalam kg" />
                                 </Form.Group>
                                 <Form.Group className="mb-4" controlId="formGroupEmail">
                                     <Form.Label className='fw-medium'>Tinggi Balita</Form.Label>
@@ -942,8 +942,8 @@ export default function CekStatus() {
                                         <div>: {gender}</div>
                                     </Col>
                                     <Col>
-                                        <div>Bulan</div>
-                                        <div>ons</div>
+                                        <div>bulan</div>
+                                        <div>kg</div>
                                         <div>cm</div>
                                     </Col>
                                     <div className='mt-5'>
