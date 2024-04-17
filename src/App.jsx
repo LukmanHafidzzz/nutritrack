@@ -10,6 +10,7 @@ import AOS from 'aos';
 import CekStatus from './pages/CekStatus';
 import Marketplace from './pages/Marketplace';
 import DaftarKontak from './pages/DaftarKontak';
+import Informasi from './pages/Informasi';
 
 function App() {
   useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
       <Route path='/cek-nutrisi' element={<CekStatus />} />
       <Route path='/marketplace' element={<Marketplace />} />
       <Route path='/daftar-kontak' element={<DaftarKontak />} />
+      <Route path='/informasi' element={<Informasi />} />
     </Routes>
     </>
   )

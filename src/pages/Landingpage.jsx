@@ -4,10 +4,10 @@ import React, { useState, useEffect } from 'react'
 import { Button, Card, CardGroup, Col, Container, Image, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import MainNavbar from '../components/MainNavbar'
+import MainFooter from '../components/MainFooter';
 import { BsFillTelephoneFill } from "react-icons/bs";
 import { FaCheck } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
-import MainFooter from '../components/MainFooter';
 
 import 'aos/dist/aos.css';
 import AOS from 'aos';

@@ -32,6 +32,7 @@ export default function MainNavbar() {
                             <Link to={'/cek-nutrisi'} className={`me-3 text-decoration-none ${activePage === '/cek-nutrisi' ? 'text-active' : 'text-white'}`}>Cek Status Nutrisi</Link>
                             <Link to={'/marketplace'} className={`me-3 text-decoration-none ${activePage === '/marketplace' ? 'text-active' : 'text-white'}`}>Marketplace</Link>
                             <Link to={'/daftar-kontak'} className={`me-3 text-decoration-none ${activePage === '/daftar-kontak' ? 'text-active' : 'text-white'}`}>Daftar Kontak</Link>
+                            <Link to={'/informasi'} className={`me-3 text-decoration-none ${activePage === '/informasi' ? 'text-active' : 'text-white'}`}>Informasi</Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
