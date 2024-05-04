@@ -32,7 +32,7 @@ export default function Informasi() {
                                 Ini sebenarnya sangat memudahkan Bunda dalam menyajikan menu makanan karena cukup melakukan satu kali proses memasak.
                             </p>
                             <p data-aos="fade-up" data-aos-duration="1000">
-                                Terlebih, pilihan makanan anak usia 1 tahun ke atas pun semakin bervariasi dan bisa mengikuti menu orang dewasa. Namun, Bunda tetap perlu berhati-hati dalam memilih agar tubuhnya mendapatkan nutrisi dan gizi seimbang demi tumbuh kembangnya. 
+                                Terlebih, pilihan makanan balita usia 1 tahun ke atas pun semakin bervariasi dan bisa mengikuti menu orang dewasa. Namun, Bunda tetap perlu berhati-hati dalam memilih agar tubuhnya mendapatkan nutrisi dan gizi seimbang demi tumbuh kembangnya. 
                             </p>
                             <p data-aos="fade-up" data-aos-duration="1000">
                                 Untuk rekomendasi menu makanan untuk balita, Bunda perlu memastikan agar makanan yang dikonsumsi si Kecil mengandung nutrisi sebagai berikut.
@@ -49,7 +49,7 @@ export default function Informasi() {
                             <p data-aos="fade-up" data-aos-duration="1000">
                                 <p className='fw-bold fs-5'>2. Serat</p>
                                 <p>
-                                    Serat adalah salah satu asupan nutrisi yang dibutuhkan tubuh anak sehari-hari. Tak seperti nutrisi lain, serat merupakan jenis karbohidrat yang tidak dapat dicerna oleh tubuh, Bun. Mengonsumsi makanan kaya serat dapat membantu proses pencernaan dan melancarkan pengeluaran tinja si Kecil. Selain itu, masalah sembelit atau konstipasi pada anak juga dapat dihindari.
+                                    Serat adalah salah satu asupan nutrisi yang dibutuhkan tubuh balita sehari-hari. Tak seperti nutrisi lain, serat merupakan jenis karbohidrat yang tidak dapat dicerna oleh tubuh, Bun. Mengonsumsi makanan kaya serat dapat membantu proses pencernaan dan melancarkan pengeluaran tinja si Kecil. Selain itu, masalah sembelit atau konstipasi pada balita juga dapat dihindari.
                                 </p>
                                 <p>
                                     Umumnya, pilihan makanan berserat bisa Bunda dapatkan secara alami melalui sayur-sayuran, buah-buahan, dan kacang-kacangan.
@@ -67,19 +67,19 @@ export default function Informasi() {
                             <p data-aos="fade-up" data-aos-duration="1000">
                                 <p className='fw-bold fs-5'>4. Lemak</p>
                                 <p>
-                                    Untuk memenuhi kebutuhan gizi pada balita, Bunda jangan lupa menambahkan asupan lemak dalam menu makanan anak sehari-hari, ya. Namun, Bunda perlu memperhatikan apakah itu lemak sehat atau tidak. Lemak berfungsi sebagai energi, membuat tubuh tetap hangat, melindungi organ vital dalam tubuh, serta membantu menyerap sejumlah asupan vitamin. 
+                                    Untuk memenuhi kebutuhan gizi pada balita, Bunda jangan lupa menambahkan asupan lemak dalam menu makanan balita sehari-hari, ya. Namun, Bunda perlu memperhatikan apakah itu lemak sehat atau tidak. Lemak berfungsi sebagai energi, membuat tubuh tetap hangat, melindungi organ vital dalam tubuh, serta membantu menyerap sejumlah asupan vitamin. 
                                 </p>
                                 <p>
-                                    Menurut American Heart Association, anak balita usia 2-3 tahun sebaiknya mengonsumsi lemak total sekitar 30 sampai 35 persen dari kalorinya. Asupan lemak bisa Bunda temukan dalam sejumlah produk hewani (daging dan susu) dan kacang-kacangan.
+                                    Menurut American Heart Association, balita usia 2-3 tahun sebaiknya mengonsumsi lemak total sekitar 30 sampai 35 persen dari kalorinya. Asupan lemak bisa Bunda temukan dalam sejumlah produk hewani (daging dan susu) dan kacang-kacangan.
                                 </p>
                             </p>
                             <p data-aos="fade-up" data-aos-duration="1000">
                                 <p className='fw-bold fs-5'>5. Cairan</p>
                                 <p>
-                                    Selain nutrisi dari makanan, Bunda perlu mencukupi kebutuhan cairan tubuh balita. Sebab, anak balita usia 1-5 tahun sedang aktif-aktifnya sehingga membutuhkan banyak air untuk menggantikan cairan yang hilang. Terlebih, balita cenderung lebih mudah mengalami dehidrasi karena sering mengabaikan rasa haus ketika asyik bermain.
+                                    Selain nutrisi dari makanan, Bunda perlu mencukupi kebutuhan cairan tubuh balita. Sebab, balita usia 1-5 tahun sedang aktif-aktifnya sehingga membutuhkan banyak air untuk menggantikan cairan yang hilang. Terlebih, balita cenderung lebih mudah mengalami dehidrasi karena sering mengabaikan rasa haus ketika asyik bermain.
                                 </p>
                                 <p>
-                                Adapun jumlah kebutuhan cairan balita tergantung pada usia, ukuran tubuh anak, kesehatan, tingkat aktivitas, sampai cuaca (suhu udara dan tingkat kelembapan). Tak hanya dari air putih atau air mineral, kebutuhan cairan anak balita bisa Bunda penuhi melalui pemberian susu formula. Susu merupakan sumber kalsium dan vitamin D yang utama bagi balita. Keduanya berfungsi untuk mendukung pertumbuhan tulang dan gigi.
+                                Adapun jumlah kebutuhan cairan balita tergantung pada usia, ukuran tubuh, kesehatan, tingkat aktivitas, sampai cuaca (suhu udara dan tingkat kelembapan). Tak hanya dari air putih atau air mineral, kebutuhan cairan pada balita bisa Bunda penuhi melalui pemberian susu formula. Susu merupakan sumber kalsium dan vitamin D yang utama bagi balita. Keduanya berfungsi untuk mendukung pertumbuhan tulang dan gigi.
                                 </p>
                             </p>
                         </Col>
